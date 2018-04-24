@@ -154,8 +154,8 @@
 		    total:100,
             positionIndustry:[],
 			positionType:[],
-			salarylist:[],
-		dwgmlist:[]    
+			//salarylist:[],
+			dwgmlist:[]    
             };
       },
       mounted(){
@@ -164,7 +164,7 @@
 		this.getDwgm();
         this.getPositionIndustry();
         this.getPositionType();
-        this.getSalary();
+        //this.getSalary();
 	},
       methods: {
         getPositionIndustry: function(){
@@ -182,21 +182,21 @@
 					$.alert('对不起，你的请求处理失败了!');   //失败处理
 				};
 		},
-		getSalary: function(){
-			//获取热招职位列表
-			var _this = this;
-			_this.$http.get(
-				"/apis/naf/code/items/37/list"
-			).then((response) => {
-				if(response.data.errcode===1){
-					alert(response.data.errmsg);
-				}else{
-					_this.salarylist = response.data.data;
-				}
-			}),function(error){
-				$.alert('对不起，你的请求处理失败了!');   //失败处理
-			}
-		},
+		// getSalary: function(){
+		// 	//获取薪资列表
+		// 	var _this = this;
+		// 	_this.$http.get(
+		// 		"/apis/naf/code/items/37/list"
+		// 	).then((response) => {
+		// 		if(response.data.errcode===1){
+		// 			alert(response.data.errmsg);
+		// 		}else{
+		// 			_this.salarylist = response.data.data;
+		// 		}
+		// 	}),function(error){
+		// 		$.alert('对不起，你的请求处理失败了!');   //失败处理
+		// 	}
+		// },
 		getPositionType: function(){
 			//按类别查看职位
 			var _this = this;
@@ -213,7 +213,7 @@
 			};
 		},
         getDwxz: function(){
-			//获取热招职位列表
+			//获取单位性质列表
 			var _this = this;
 			_this.$http.get(
 				"/apis/naf/code/items/36/list"
@@ -228,7 +228,7 @@
 			}
 		},
         getDwgm: function(){
-			//获取热招职位列表
+			//获取单位规模列表
 			var _this = this;
 			_this.$http.get(
 				"/apis/naf/code/items/37/list"
