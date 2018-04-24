@@ -36,7 +36,7 @@
 								<span onmouseover="seen()" onmouseout="disn()">用户功能频道</span>
 							</div>
 							<ul class="pull-left css-navbar">
-								<li><router-link to="/frontPage/frontIndex">平台首页</router-link></li>
+								<li><router-link to="/">平台首页</router-link></li>
 								<li><router-link to="/frontPage/StudentLogin">学生用户</router-link></li>
 							</ul>
 						</div>  
@@ -45,7 +45,7 @@
 						<div class="css-channel pull-left">
 							<div class="css-menu" id="css-menu">
 								<div onmouseover="lul_list()" onmouseout="lul_out()" class="cr_li">
-									<router-link to="/frontPage/frontIndex" class="li_a">平台首页</router-link>
+									<router-link to="/" class="li_a">平台首页</router-link>
 									<!-- <a href="index.html" class="li_a">平台首页 </a> -->
 									<div class="box1" id="box1">
 										<div class="list-left">
