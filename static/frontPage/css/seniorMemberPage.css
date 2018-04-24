@@ -1,0 +1,271 @@
+.css-main-list {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.css-main-list .css-searchbox {
+    padding: 15px 0;
+    margin-top: 15px;
+    height: 55px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    /* Firefox 4 */
+    -webkit-transition-duration: 1s;
+    /* Safari �� Chrome */
+    -o-transition-duration: 1s;
+    /* Opera */
+    *zoom: 1;
+}
+.css-main-list .css-searchbox:hover {
+    border-color: #00abd8;
+}
+.css-main-list .css-searchbox:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.css-main-list .css-searchbox dl {
+    margin-left: 20px;
+    padding: 0 5px;
+}
+.css-main-list .css-searchbox dl dt {
+    margin-bottom: 5px;
+    height: 20px;
+    line-height: 20px;
+}
+.css-main-list .css-searchbox dl dd {
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    overflow: hidden;
+}
+.css-main-list .css-searchbox dl dd input,
+.css-main-list .css-searchbox dl dd select,
+.css-main-list .css-searchbox dl dd i {
+    height: 24px;
+    line-height: 24px;
+    border: none;
+    box-shadow: none;
+    display: block;
+    background: none;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.css-main-list .css-searchbox dl dd i {
+    font-style: normal;
+}
+.css-main-list .css-searchbox .css-keywords {
+    width: 450px;
+}
+.css-main-list .css-searchbox .css-input {
+    width: 150px;
+}
+.css-main-list .css-searchbox .css-btn {
+    margin-top: 22px;
+    margin-left: 20px;
+}
+.css-main-list .css-searchbox .css-btn button {
+    height: 30px;
+    line-height: 28px;
+    background-color: #00abd8;
+    border: none;
+    box-shadow: none;
+    padding: 0 20px;
+    color: #fff;
+    cursor: pointer;
+    overflow: visible;
+}
+.css-subnav {
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+}
+.css-subnav li {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-top: 2px solid #fff;
+    float: left;
+}
+.css-subnav li a {
+    color: #555;
+}
+.css-subnav li a:hover {
+    color: #222;
+}
+.css-subnav li:hover {
+    background-color: #fff;
+    height: 38px;
+    line-height: 38px;
+    border-top: 2px solid #00b8e5;
+    border-bottom: none;
+}
+.css-subnav .active {
+    background-color: #fff;
+    height: 38px;
+    line-height: 38px;
+    border-top: 2px solid #00b8e5;
+    border-bottom: none;
+}
+.css-subnav .active a {
+    color: #333;
+}
+.css-main-list .css-content {
+    margin-top: 20px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+.css-main-list .css-content .css-title {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ddd;
+}
+.css-col150 {
+    width: 150px;
+}
+.css-col200 {
+    width: 200px;
+}
+.css-col350 {
+    width: 350px;
+}
+.css-main-list .css-content .css-title li {
+    color: #333;
+    float: left;
+    margin-left: 10px;
+}
+.css-main-list .css-content .css-list li {
+    border-top: 1px solid #f6f6f6;
+    padding: 0 10px 0 15px;
+    line-height: 49px;
+    background: url("../imgs/li.png") no-repeat;
+    background-position: 8px 20px;
+    *zoom: 1;
+}
+.css-main-list .css-content .css-list li:hover {
+    background-color: #f6f6f6;
+}
+.css-main-list .css-content .css-list li:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.css-main-list .css-content .css-list li a,
+.css-main-list .css-content .css-list li span,
+.css-main-list .css-content .css-list li time {
+    color: #333;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+    margin-left: 10px;
+}
+.css-main-list .css-content .css-list li a {
+    color: #00abd8;
+}
+.css-pagination {
+    width: 100%;
+    padding: 20px 0;
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid #f6f6f6;
+    text-align: center;
+    clear: both;
+}
+.css-pagination .css-count {
+    display: inline;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+}
+.css-pagination .css-page {
+    display: inline;
+    height: 24px;
+    margin-left: 15px;
+    margin-top: 2px;
+    padding-top: 5px;
+}
+.css-pagination .css-page li {
+    display: inline;
+}
+.css-pagination .css-page li a {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 3px 6px;
+}
+.css-pagination .css-page .active a {
+    background-color: #00abd8;
+    color: #fff;
+}
+.css-col500 {
+    width: 500px;
+}
+.css-col350 {
+    width: 350px;
+}
+.css-col148 {
+    width: 148px;
+}
+.css-breadcrumb {
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 0 20px;
+    background-color: #fff;
+}
+.css-list-inline li {
+    display: inline;
+}
+ .css-content .css-main .css-article-content {
+    margin-top: 20px;
+}
+ .css-content .css-main .css-article-content .css-content {
+    margin: 0;
+    border: none;
+    padding: 15px 30px;
+    background-color: #fff;
+}
+ .css-content .css-main .css-article-content .css-content p {
+    margin-bottom: 10px;
+}
+ .css-content .css-main .css-article-content .css-heading {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 0 0 20px;
+}
+ .css-content .css-main .css-article-content .css-content .css-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.text-center {
+    text-align: center;
+}
+ .css-content .css-main .css-article-content .css-content .css-tit {
+    background-color: #efefef;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    margin: 15px 0;
+}
+ .css-content .css-main .css-article-content .css-content {
+    margin: 0;
+    border: none;
+    padding: 15px 30px;
+    background-color: #fff;
+}

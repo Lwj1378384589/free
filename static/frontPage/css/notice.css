@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", "SimSun", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #555;
+    background-color: #f5f5f5;
+    height: 100%;
+}
+
+
+/*notice*/
+.notify{
+    width:1200px;  /*锟斤拷锟�1200px*/
+   /*  height:1000px; */
+    margin: 0 auto;
+    color:#555;
+     background-color:#fff;
+}
+.sele{
+    margin: 10px 0;
+    height:40px;
+    background-color:#fff;
+    border:1px solid #ddd;
+}
+.sele1,.sele2{
+    display: inline-block;
+    width: 100px;
+    height:40px;
+    background-color:#f5f5f5;
+    text-align:center;
+    line-height: 40px;
+    
+}
+.sele1 a,.sele2 a{
+    color:#555;
+}
+.sele1{
+    background-color:#95d8ea;
+}
+.notify-search{
+    margin: 10px 0;
+    height:100px;
+    border:1px solid #ddd;
+    
+    /* background-color:#5eb7cf; */
+
+}
+.notify-search p{
+    margin:20px 20px 10px 20px;
+}
+.sou2{
+    height: 26px;
+    width:420px;
+    border:1px solid #ddd;
+    margin-left:20px;
+    padding:0 10px;
+}
+.sousuo2{
+    height: 26px;
+    width:46px;
+    background-color:#5eb7cf;
+    border:none;
+    color:white;
+}
+.notes{
+    margin: 10px 0;
+    /* height:880px; */
+    border:1px solid #ddd;
+}
+.notes-title{
+    height:40px;
+    border-bottom:1px solid #ddd;
+}
+.notes-title p:first-child{
+    /* color:red; */
+    margin:10px 20px;
+    float: left;
+}
+.notes-title p:last-of-type{
+    margin:10px 60px;
+    /* color:yellow; */
+    float: right;
+}
+.notes-list a{
+    display: inline-block;
+    padding:20px;
+    float: left;
+    
+}
+.notes-list li{
+    height:60px;
+    border-bottom:1px solid #f6f6f6;
+}
+.notes-list li:hover{
+    background-color:#f5f5f5;
+}
+.notes-list span{
+    float: right;
+    margin:20px 40px;
+}
+.pages{
+    height:50px;
+}
+.pages li{
+    margin:0 6px;   
+    border:1px solid #ddd;
+    text-align:center;
+    float: left;
+    line-height: 20px;
+}
+.pages a{
+    color:black;
+}
+.ps,.pm{
+    height:20px;
+    width:40px;
+}
+.p1,.p2,.p3{
+    height:20px;
+    width:20px;
+}
+.pages{
+    margin:10px auto;
+    width:300px;
+}
+/*low*/
+#low{
+    height: 250px;
+    width:100%;
+    margin-top:80px;
+    background-color: #333;
+    
+}
+#low a{
+    color: #CCB;
+}
+.low-list,.low-list ul{
+    width:800px;
+    margin:0 auto;
+    height:80px;
+    
+}
+.low-list a{
+    float: left;
+    padding:30px 20px;
+}
+.low-p{
+    margin:0 auto;
+    height:30px;
+    text-align: center;
+    width: 900px;
+}
+.low-pic{
+    height: 100px;
+    margin: 20px auto;
+    width:100px;
+}
+#title2{
+    display:none;
+    
+}

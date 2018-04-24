@@ -1,0 +1,419 @@
+body {background: #fafafa;}
+* {list-style: none; text-decoration: none; padding: 0; margin: 0; }
+.container { width: 1200px;margin: 0 auto;}
+.container .css-channel { width: 230px;  float: left; height: 350px;  position: relative;}
+/*.css-nav .css-usernav .css-channel {
+ display: none;
+ position: absolute;
+ top: 50px;
+ left: 0;
+ transition-duration: 1s;
+ -moz-transition-duration: 1s;
+ -webkit-transition-duration: 1s;
+ -o-transition-duration: 1s;
+}*/
+
+.css-main-index {
+ width: 100%;
+ height: auto;
+ overflow: hidden;
+ /*background:#5B9BD5;*/
+}
+.clearfix {
+ ZOOM: 1
+}
+
+.css-channel {
+ width: 230px;
+ height: 350px;
+ background: #fff;
+ position: relative;
+ z-index: 1;
+}
+.css-channel .css-menu { width: 230px;  margin-top: 10px; height: 340px;}
+.css-main-index .css-slide {
+ width: 670px;
+ height: 350px;
+ background: #fff;
+ overflow: hidden;
+ float: left;
+}
+.css-main-index .css-login-notice {
+ width: 300px;
+ height: 350px;
+ background: #fff;
+ overflow: hidden;
+ float: right;
+}
+.css-channel .css-menu { width: 230px;  margin-top: 10px; height: 340px;}
+.css-channel .css-menu .cr_li { width: 175px; font-family: "Microsoft Yahei", "΢���ź�", Tahoma, Arial, Helvetica, STHeiti; font-weight: bold; padding-left: 55px; background:url("../imgs/shouye.png") no-repeat 25px 12px; line-height: 40px;  height: 40px;}
+.css-channel .css-menu .cr_li:hover {color: #0069D6; background:#f0f0f0 url("../imgs/shouye1.png") no-repeat 25px 12px; }
+.stubg {background:url("../imgs/stu.png") no-repeat 25px 12px !important;}
+.stubg:hover {background:#f0f0f0 url("../imgs/stu1.png") no-repeat 25px 12px !important;}
+.danwbg {background:url("../imgs/danwei.png") no-repeat 25px 12px !important;}
+.danwbg:hover {background:#f0f0f0 url("../imgs/danwei1.png") no-repeat 25px 12px !important;}
+.schoolbg {background:url("../imgs/school.png") no-repeat 25px 12px !important;}
+.schoolbg:hover {background:#f0f0f0 url("../imgs/school1.png") no-repeat 25px 12px !important;}
+.schoolLbg {background:url("../imgs/icon_school.png") no-repeat 25px 12px !important;}
+.schoolLbg:hover {color: #0069D6; background:#f0f0f0 url("../imgs/icon_school2.png") no-repeat 25px 12px !important;}
+.li_a {display: block; text-decoration: none;}
+.li_a:hover {color: #0069D6;}
+
+ /*.css-channel .css-menu { width: 230px;  margin-top: 10px; height: 340px;}*/
+ /*.css-channel .css-menu .cr_li {width: 175px;  padding-left: 55px; background:url("../imgs/shouye.png") no-repeat 25px 12px;  font-family: "Microsoft Yahei", "΢���ź�", Tahoma, Arial, Helvetica, STHeiti; font-weight: bold; line-height: 40px;  height: 40px;}*/
+/*.css-channel .css-menu .cr_li:hover { background:#f0f0f0; }*/
+/*.css-channel .css-menu .cr_li .acr_li { display: block; width: 175px;  padding-left: 55px; background:url("../imgs/shouye.png") no-repeat 25px 12px; }*/
+/*.css-channel .css-menu .cr_li .acr_li:hover {color: #0069D6; background:#f0f0f0 url("../imgs/shouye1.png") no-repeat 25px 12px; }*/
+/*.stubg { display: block; width: 175px;  padding-left: 55px; background:url("../imgs/stu.png") no-repeat 25px 12px !important;}*/
+/*.stubg:hover {color: #0069D6; background:#f0f0f0 url("../imgs/stu1.png") no-repeat 25px 12px !important;}*/
+/*.danwbg {display: block; width: 175px;  padding-left: 55px; background:url("../imgs/danwei.png") no-repeat 25px 12px !important;}*/
+/*.danwbg:hover {color: #0069D6; background:#f0f0f0 url("../imgs/danwei1.png") no-repeat 25px 12px !important;}*/
+/*.schoolbg {display: block; width: 175px;  padding-left: 55px; background:url("../imgs/school.png") no-repeat 25px 12px !important;}*/
+/*.schoolbg:hover {color: #0069D6; background:#f0f0f0 url("../imgs/school1.png") no-repeat 25px 12px !important;}*/
+/*.schoolLbg {display: block; width: 175px;  padding-left: 55px; background:url("../imgs/icon_school.png") no-repeat 25px 12px !important;}*/
+/*.schoolLbg:hover {color: #0069D6; background:#f0f0f0 url("../imgs/icon_school2.png") no-repeat 25px 12px !important;}*/
+
+ .css-channel .css-menu .box1 { width:970px;  display: none; position: absolute; top: 0px; left: 230px; z-index: 99; height: 350px; background: #f0f0f0;}
+ .css-channel .css-menu .box1 .list-left { width: 212px; height: 340px; float: left;}
+ .css-channel .css-menu .box1 .list-con { width: 330px; height: 340px; float: left;}
+ .css-channel .css-menu .box1 .list-bg { width:60px; height: 340px; float: left;}
+ .css-channel .css-menu .box1 .list-right { width: 330px; height: 340px; float: left;}
+ .css-channel .css-menu .box1 .list-left .lt-ul { width: 200px; height: 200px;  margin: 20px 0 0 20px;}
+ .css-channel .css-menu .box1 .list-left .lt-ul li { width: 200px; height:40px; color: #ffffff; line-height:40px; margin-bottom: 10px; text-align: center;  background: #00abd8;}
+ .css-channel .css-menu .box1 .list-left .lt-ul li:hover { background: #008dba;}
+ .css-channel .css-menu .box1 .list-left .lt-ul li a {color: #ffffff; display: block;}
+ .cn-ul { width: 330px; height: 320px; overflow: hidden;  margin: 18px 0 0 20px;}
+ .cn-ul .txt {  font-size: 14px; line-height: 20px; height: 20px; padding-left: 15px; color: #000000; font-weight: bold;}
+ .cn-ul li { width: 130px; height: 30px; overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis; line-height: 30px; font-size: 14px;   padding: 0 5px 0 25px; float: left; background:url("../imgs/li.png") no-repeat 8px 15px;}
+ .cn-ul li a { width: 140px; height: 34px; line-height: 34px; font-size: 14px;  font-weight:normal; color: #000000;}
+ .cn-ul li a:hover { color: #0069D6;}
+ .css-subMenu { width: 212px; float: left; background: #fafafa; height: 285px; margin: 20px 0 0 20px;}
+.css-subMenu .top-M { height: 40px; line-height: 40px; text-indent: 20px; color: #ffffff; font-size: 16px; font-weight: bold; background: #00abd8;}
+.css-subMenu .Mul {height: 220px;}
+.css-subMenu .Mul li {height: 36px; width: 180px;padding-left: 20px; }
+.css-subMenu .Mul li a {display: block; font-weight: normal; font-size: 14px; color: #000000;}
+.css-login {width:260px; height:114px; margin: 20px 20px 10px 20px;}
+.css-login .css-welcome {width:260px; height:64px; margin-bottom: 15px;}
+.css-login .css-welcome img {width:64px; height:64px; border-radius: 32px; float: left;}
+.css-login .css-welcome .Wul {width:175px; margin: 10px 0 0 20px; line-height: 24px; float: left;}
+.css-login ul li {float: left; }
+.css-login ul li a {width:120px; color: #ffffff; font-family: "Microsoft Yahei", "΢���ź�", Tahoma, Arial, Helvetica, STHeiti; display: block; height:35px;line-height: 33px; text-align: center;}
+.css-login ul .css-btnlogin {background: #f2572d; margin-right: 20px;}
+.css-login ul .css-btnregister {background:#00abd8;}
+.css-notice {width:270px; height:200px; margin-left: 20px;}
+.css-notice .css-caption {width:270px; height:41px; border-bottom: 1px solid #CCCCCC;}
+.css-notice .css-caption .Clt {width:160px; height:41px; padding-left: 40px; line-height: 41px; font-weight: bold; background: url("../imgs/gogngao.png") no-repeat 14px 12px; float: left;}
+.css-notice .css-caption .css-more {width:70px; height:41px; line-height: 41px; float: left;}
+.css-notice .Nul {width:270px; height:150px;}
+.css-notice .Nul li {width: 250px; padding-left: 20px; overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis;  height:31px; line-height: 31px;  background:url("../imgs/li.png") 6px 12px no-repeat;}
+.css-notice .Nul li a {display: block; color: #000000; font-size: 14px; width: 250px; overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis;}
+.css-notice .Nul li a:hover {color: #00abd8;}
+
+.css-main-index .css-imgline {
+ margin-top: 20px;
+}
+.css-main-index .css-imgline img {
+ display: block;
+ width: 100%;
+}
+
+.css-main-index .css-jobfair {
+ width: 793px;
+ height: 400px;
+ background: #fff;
+ float: left;
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+.css-main-index .css-calendar {
+ margin-top: 20px;
+ width: 387px;
+ height: 400px;
+ background: #fff;
+ float: right;
+ margin-bottom: 20px;
+ position: relative;
+}
+.css-caption1 {width:347px; height:50px; background: #00B8EC url("../imgs/rili.png") no-repeat 10px 13px; color: #ffffff; padding-left: 40px; font-size: 18px; line-height: 50px; }
+.css-main-index .css-calendar .css-caption {width:347px; height:50px; background: #00B8EC url("../imgs/rili.png") no-repeat 10px 13px; color: #ffffff; padding-left: 40px; font-size: 18px; line-height: 50px; }
+.ulC { width: 753px; height:320px; margin: 15px; }
+.ulC li { width: 730px; padding-left: 23px; line-height:36px; height: 36px;  background:url("../imgs/li.png") 6px 13px no-repeat;}
+.ulC li a {display: block;  font-size: 14px; color: #000000;}
+.ulC li a:hover {color: #00abd8;}
+.ulC li .css-col400 { width:400px;  overflow: hidden;  margin-right: 15px; white-space: nowrap;  text-overflow: ellipsis;  float: left;}
+.ulC li .css-col200 { width:200px; margin-right: 15px; overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis;  float: left;}
+.ulC li .tim { width:76px;  overflow: hidden;  white-space: nowrap;  text-overflow: ellipsis;  float: left; }
+.css-talentmarket { width: 1200px; height: 100px; margin: 0 auto; background: #ffffff;}
+.css-talentmarket .css-caption { height: 40px; border-bottom: 1px solid #00B8EC;}
+.css-talentmarket .css-caption .top {width:130px; padding-left: 30px; color: #ffffff; font-size: 18px; height: 41px; line-height: 41px; background:#00B8EC; }
+.link { height: 30px; line-height: 30px; padding-top:15px; padding-left: 30px;}
+.link li { height: 30px; line-height: 30px;float: left; margin-right: 30px;}
+.link li a { height: 30px; color: #000000; line-height: 30px;}
+.link li a:hover {color: #00B8EC;}
+
+.css-footer{min-width: 1200px;  width: 100%; height: 180px;  padding: 30px 0;  margin: 20px auto 0;  background: #333;  text-align: center;}
+.css-footer ul {  line-height: 24px;  }
+.css-footer .css-corplink {  margin-bottom: 15px;  }
+.css-footer .css-corplink li {  margin: 0 5px;  color: #ccc;display: inline; }
+.css-footer .css-corplink li a {  color: #ccc;  }
+.css-footer .css-corplink li a:hover {  color: #666;  }
+
+
+ /*�ֲ�*/
+.xmK { width: 670px; height: 350px; margin: 0 auto; background: #ffffff; }
+.mb50 { margin-bottom: 50px !important;}
+.born { border: none !important;}
+.h260 { height: 260px !important;}
+.pt0 { padding-top: 0 !important;}
+.w643 { width: 683px !important;}
+.lB  {width:670px; height:350px;/* padding:25px 0 0 28px ;*/ position: relative; float: left; }
+.lB img  {width:670px; height:350px;}
+.lB .dian_ul1  {width:670px; height:35px; line-height: 35px;/* padding-left: 93px;*/ background: rgba(0, 0, 0, 0.5); /*text-align: center;*/ position: absolute; bottom:0px; }
+.lB .dian_ul { width: 150px; height: 20px;  position: absolute; bottom:45px;left: 270px;}
+.lB .dian_ul li  {width:10px; height:10px; border-radius: 5px; background: #ffffff; float: left; margin:9px 0 0 12px;}
+.dian_li_bg {background: #ff1441 !important;}
+.Txin { height:35px; /* padding:186px 0 0 28px;*/}
+.Txin .Tul { height:35px;/*padding-top: 17px;*/}
+.Txin .Tul li {  height:35px; color: #ffffff;  padding-left: 10px; line-height:35px; overflow: hidden; }
+.chaG { width: 284px; height: 35px; line-height: 35px; font-size: 12px; padding-left: 223px !important;}
+.Txin .Tul .shijian {width: 284px; height: 35px; line-height: 35px; overflow: hidden;}
+.Txin .Tul .shijian a {width: 205px; margin-right:10px; text-decoration: none;  color: #666666; overflow: hidden; float: left;}
+.Txin .Tul .shijian span {width: 69px; text-decoration: none;  color: #666666; overflow: hidden; float: left;}
+.h345 { height: 345px !important;}
+.w738 { width: 738px !important;}
+.h483 { height: 483px !important;}
+.w740 { width: 740px !important;}
+.w1138 { width: 1138px !important;}
+.w1140 { width: 1140px !important;}
+.h163 { height: 163px !important;}
+.right { width:740px; height: 796px; float: left; }
+
+/*����������*/
+.css-job {width: 150px; height: 100px; border: 1px solid #CCCCCC; background: red; display: none; position: absolute; top: 50%; left: 40%;}
+.job-top {height: 30px; line-height: 30px; background: #00B8EC;}
+.top-left {float: left; text-indent: 5px; font-size: 14px; color: #ffffff;height: 30px; width: 120px;}
+.top-right {float: left; cursor: pointer; color: #ffffff; width: 30px; text-align: center;}
+.top-right:hover{color: #080808;}
+.job-box {height: 70px; text-align: center; line-height: 70px;  background: #ffffff;}
+
+
+/*��������*/
+.p0 {padding-bottom: 0 !important;}
+.css-main-index .css-imggroup ul {
+ width: 100%;
+ height: auto;
+ overflow: hidden;
+ background: #fff;
+ margin-top: 20px;
+}
+.css-main-index .css-imggroup ul li {
+ width: 200px;
+ height: 90px;
+ border-bottom: 1px dashed #e5e5e5;
+ border-right: 1px dashed #e5e5e5;
+ margin-bottom: -1px;
+ margin-right: -1px;
+ float: left;
+}
+.css-main-index .css-imggroup ul li img {
+ margin: 10px 0 0 10px;
+}
+.css-main-index .css-hotjob,
+.css-main-index .css-talentmarket{
+ margin-top: 20px;
+ width: 100%;
+ height: auto;
+ overflow: hidden;
+ background: #fff;
+}
+.css-main-index .css-hotjob .css-caption,
+.css-main-index .css-corphire .css-caption,
+.css-main-index .css-talentmarket .css-caption,
+.css-main-index .css-friendlink .css-caption
+{
+ height: 50px;
+ line-height: 50px;
+ border-bottom: 1px solid #00abd8;
+}
+.css-main-index .css-corphire .css-caption div,
+.css-main-index .css-hotjob .css-caption div,
+.css-main-index .css-talentmarket .css-caption div,
+.css-main-index .css-friendlink .css-caption div{
+ width: 160px;
+ background: #00B8EC;
+ font-size: 20px;
+ font-weight: bold;
+ color: #fff;
+ text-align: center;
+ float: left;
+}
+.css-main-index .css-corphire .css-caption div img,
+.css-main-index .css-hotjob .css-caption div img,
+.css-main-index .css-talentmarket .css-caption div img,
+.css-main-index .css-friendlink .css-caption div img {
+ position: relative;
+ top: 4px;
+ margin-right: 10px;
+}
+.css-main-index .css-corphire .css-caption span,
+.css-main-index .css-hotjob .css-caption span,
+.css-main-index .css-talentmarket .css-caption span{
+ float: right;
+ margin-right: 20px;
+}
+.css-main-index .css-hotjob .css-content,
+.css-main-index .css-talentmarket .css-content {
+ height: auto;
+ overflow: hidden;
+ padding: 5px 0;
+}
+.css-main-index .css-hotjob .css-content .css-ujobs,
+.css-main-index .css-talentmarket .css-content .css-ujobs {
+ border-bottom: 1px dashed #00abd8;
+ padding-bottom: 15px;
+ margin: 0 15px;
+ *zoom: 1;
+}
+.css-main-index .css-hotjob .css-content ul,
+.css-main-index .css-talentmarket .css-content ul {
+ float: left;
+ width: 287px;
+ height: auto;
+ overflow: hidden;
+ line-height: 26px;
+ margin: 5px 0 0 5px;
+}
+.css-main-index .css-hotjob .css-content ul li img,
+.css-main-index .css-talentmarket .css-content ul li img {
+ vertical-align: top;
+ width: 20px;
+ position: relative;
+ top: 3px;
+ left: 3px;
+}
+.css-main-index .css-hotjob .css-content ul li,
+.css-main-index .css-talentmarket .css-content ul li {
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+.css-main-index .css-hotjob .css-content ul li a,
+.css-main-index .css-talentmarket .css-content ul li a {
+ margin-right: 5px;
+}
+.text-blue {
+ color: #0067a6 !important;
+}
+.css-main-index .css-hotjob .css-content .css-njobs,
+.css-main-index .css-talentmarket .css-content .css-njobs {
+ padding: 6px 0;
+ margin: 0 15px;
+ *zoom: 1;
+}
+.css-main-index .css-corphire
+, .css-main-index .css-friendlink {
+ margin-top: 20px;
+}
+.css-main-index .css-corphire,
+.css-main-index .css-hotjob,
+.css-main-index .css-talentmarket,
+.css-main-index .css-friendlink {
+ width: 100%;
+ height: auto;
+ overflow: hidden;
+ background: #fff;
+}
+#marquee5 {
+ width: 1200px;
+ height: 400px;
+ overflow: hidden;
+}
+#marquee5 ul {
+ width: 1200px;
+}
+#marquee5 ul li {
+ width: 228px;
+ height: 100px;
+ margin: 0 6px;
+ text-align: center;
+ float: left;
+}
+.css-main-index .css-corphire .css-logos,
+.css-main-index .css-hotjob .css-logos,
+.css-main-index .css-talentmarket .css-logos,
+.css-main-index .css-friendlink .css-logos {
+ height: auto;
+ overflow: hidden;
+ padding: 0;
+}
+.css-main-index .css-corphire .css-logos li img,
+.css-main-index .css-hotjob .css-logos li img,
+.css-main-index .css-talentmarket .css-logos li img,
+.css-main-index .css-friendlink .css-logos li img {
+ height: 50px;
+ margin: 10px auto 10px;
+ display: block;
+ width: 148px;
+}
+.css-main-index .css-corphire .css-logos li p,
+.css-main-index .css-hotjob .css-logos li p,
+.css-main-index .css-talentmarket .css-logos li p,
+.css-main-index .css-friendlink .css-logos li p {
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ height: 22px;
+ padding: 0 15px;
+}
+.css-main-index .css-talentmarket .css-content {
+ line-height: 30px;
+ margin: 0;
+ height: auto;
+ overflow: hidden;
+ padding: 5px 0;
+}
+.css-main-index .css-talentmarket .css-content ul {
+ margin: 0;
+ width: 100%;
+ *zoom: 1;
+ float: left;
+ /*width: 287px;*/
+ height: auto;
+ overflow: hidden;
+ line-height: 26px;
+ /*margin: 5px 0 0 5px;*/
+}
+.css-main-index .css-talentmarket .css-content ul li {
+ background: url("../imgs/li.png") no-repeat center left;
+ padding-left: 20px;
+ height: 30px;
+ width: 560px;
+ margin-left: 10px;
+ float: left;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+.css-main-index .css-talentmarket .css-content ul li time {
+ float: right;
+ color: #ccc;
+}
+.css-main-index .css-talentmarket .css-content ul li a {
+ height: 100%;
+ display: block;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ *zoom: 1;
+ margin-right: 5px;
+}
+.css-main-index .css-talentmarket .css-content ul li a span {
+ display: block;
+ float: left;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+.css-col470 {
+ width: 470px;
+}

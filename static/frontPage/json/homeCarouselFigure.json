@@ -1,0 +1,26 @@
+{
+	"errcode":0,
+	"errmsg":"成功",
+	"list":[
+		{
+			"name":"imgs/img1.jpg",
+			"url":"recruitmentBrochureDetailPage.html"
+		},
+		{
+			"name":"imgs/img2.jpg",
+			"url":"companyDetailPage.html"
+		},
+		{
+			"name":"imgs/img3.jpg",
+			"url":"recruitmentBrochureDetailPage.html"
+		},
+		{
+			"name":"imgs/img4.jpg",
+			"url":"companyDetailPage.html"
+		},
+		{
+			"name":"imgs/img5.jpg",
+			"url":"recruitmentDetailPage.html"
+		}
+	]
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+#schedule-box{
+    background: #ffffff;
+    width: 387px;
+    height: 350px;
+    margin: 0 auto;
+   /* padding: 35px 20px;*/
+    font-size: 13px;
+}
+.schedule-hd{
+    font-size: 20px;
+    line-height: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    /*padding: 0 15px;*/
+}
+.today{
+    width: 150px;
+
+    text-align: center;
+}
+.ul-box{
+    padding-top: 10px;
+    overflow: hidden;
+}
+.pre {
+    width: 150px;
+
+    text-align: center;
+}
+.next
+{
+    width: 150px;
+
+    text-align: center;
+}
+.wul {
+    font-weight: bold;
+    padding: 10px 0;
+    background:#f0f0f0;
+}
+.ul-box > li{
+    float: left;
+    width: 14.28%;
+    text-align: center;
+    padding: 2px 0;
+}
+.other-month{
+    color: #999999;
+}
+.current-month{
+    color: #333333;
+}
+.today-style{
+    border-radius: 50%;
+    background: #58d321;
+}
+.arrow{
+    cursor: pointer;
+}
+.dayStyle{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+.current-month > .dayStyle:hover{
+    background: #00C2B1;
+    color: #ffffff;
+}
+.today-flag{
+    background: #00BDFF;
+
+    color: #fff;
+}
+.boxshaw{
+    box-shadow: 2px 2px 15px 2px #e3e3e3;
+}
+.selected-style {
+    background: #00C2B1;
+    color: #ffffff;
+}
+/*#h3Ele{
+    text-align: center;
+}*/
+
+
+.css-job {width: 150px; height: 100px; border: 1px solid #CCCCCC; background: red; display: none; position: absolute; top: 45%; left: 35%;}
+.job-top {height: 30px; line-height: 30px; background: #00B8EC;}
+.top-left {float: left; text-indent: 5px; font-size: 14px; color: #ffffff;height: 30px; width: 120px;}
+.top-right {float: left; cursor: pointer; color: #ffffff; width: 30px; text-align: center;}
+.top-right:hover{color: #080808;}
+.job-box {height: 70px; text-align: center; line-height: 70px;  background: #ffffff;}

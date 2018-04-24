@@ -1,0 +1,21 @@
+.css-main-u { padding: 0 ;margin: 0;}
+.css-reg-banner {width: 100%; min-height:750px; overflow: hidden;background: url("../imgs/bg1.jpg") no-repeat top center;}
+.bg2 {background: url("../imgs/bg2.jpg") no-repeat top center !important;}
+.css-container {  width: 1200px;  height: 100%;  margin: 0 auto;  }
+.css-conbox {width: 800px; background: #ffffff;  float: none;  margin: 75px auto;  border: 1px solid #CCCCCC;}
+.css-title {font-size: 18px;  border-bottom: 1px solid #ddd;  margin: 0 -20px;  padding: 0 15px 15px;}
+.css-form { width: 800px; height: 520px; margin-top: 30px;}
+.stu { width: 780px; height: 50px; padding-left: 20px; line-height: 50px; border-bottom: 1px solid #CCCCCC;}
+.css-input { width: 400px; height: 35px; padding-left: 150px; margin-bottom: 10px; }
+.css-input .css-tit {width:135px; height: 35px; line-height: 35px; text-align: right; margin-right: 30px; float: left;}
+.css-input .css-group {width:220px; float: left;}
+.css-btn {margin-top:20px; width:300px; display: block; margin-left: 240px; height: 35px; line-height: 35px; text-align: center; color: #ffffff; background: #00abd8; border: none; border-radius: 3px;}
+.w1000 {width:1000px !important;}
+.w980 {width:980px !important;}
+.inPut {width:600px !important; padding-left:120px !important;}
+.jingGao{float:left; height:35px; line-height:35px; padding-left:20px;}
+.el-input__inner{
+    height:35px;
+}
+.wanS {width:450px; float:left; height:35px; margin-bottom:10px; }
+.wanS .wanTit{width: 135px;height: 35px;line-height: 35px;text-align: right;margin-right: 30px;float: left;}

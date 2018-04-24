@@ -1,0 +1,12 @@
+{
+	"errcode":0,
+	"errmsg":"成功",
+	"list":[
+		{
+			"name":"aaa"
+		},
+		{
+			"name":"bbb"
+		}
+	]
+}

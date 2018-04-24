@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+#ad {position:fixed; top:0px; background:#35495e; z-index:1000; width:100%;  padding:10px 30px 10px 30px; }
+#ad a {color:#ffffff !important; }
+/* #ad a:hover { color:#666666 !important; } */
+.nme {width:65px; height:44.8px; border-right:1px solid #cccccc; float:left; background: url("../img/name.gif") no-repeat 25px 8px !important;}
+.psw {width:65px; height:44.8px; border-right:1px solid #cccccc; float:left; background: url("../img/ps.gif") no-repeat 25px 8px !important;}
+.lgin {background: url('../img/loname.gif') no-repeat 8px 1px !important; padding-left:40px !important;}
+.lgin1 { background: url('../img/logna.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin2 { background: url('../img/pass.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin3 {background: url('../img/shen.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin4 { background: url('../img/phon.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin5 { background: url('../img/@.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin6 { background: url('../img/adre.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin7 { background: url('../img/jian.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin8 { background: url('../img/gongsi.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin9 { background: url('../img/zhizhao.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin10 { background: url('../img/money.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin11 { background: url('../img/zhao.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin12 { background: url('../img/shang.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin13 { background: url('../img/else.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin14 { background: url('../img/lei.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin15 { background: url('../img/ti.gif') no-repeat 8px 1px !important; padding-left:40px; width:85px !important;}
+.lgin16 {background: url('../img/yan.gif') no-repeat 0px 0px !important; padding-left:26px !important;}
+.lgin17 {background: url('../img/xin.gif') no-repeat 0px 0px !important; padding-left:26px !important;}
+.lgin18 {background: url('../img/hui.gif') no-repeat 0px 0px !important; padding-left:26px !important;}
+.lgin19 {background: url('../img/in1.gif') no-repeat 0px 2px !important; padding-left:30px !important;}
+.lgin20 {background: url('../img/in2.gif') no-repeat 0px 2px !important; padding-left:30px !important;}
+.lgin21 {background: url('../img/in3.gif') no-repeat 0px 2px !important; padding-left:30px !important;}
+.lgin22 {background: url('../img/in4.gif') no-repeat 0px 2px !important; padding-left:30px !important;}
+#header{
+  height: 350px;
+  background-image: url('../img/bgbg.jpg');
+  background-position: center center; // 让背景居中垂直水平居中显示
+  background-repeat: no-repeat;
+  background-size: cover; // 按照较小边对图片进行缩放
+}
+
+.mine { text-align:center; height:45px; width:100%; color:#666; display:block; line-height:45px;  border-bottom:1px solid #ccc;}
+.born { border-bottom:none !important;}
+.lh24 { height:24px; line-height:30px;}
+.w100 {width:100px !important;}

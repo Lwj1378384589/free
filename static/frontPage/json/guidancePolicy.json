@@ -1,0 +1,43 @@
+{
+	"errcode":0,
+	"errmsg":"成功",
+	"list":[
+		{
+			"id":"1",
+			"title":"大学新生应征入伍宣传单",
+			"time":"2017-06-10",
+			"url":"guidancePolicyDetailPage.html"
+		},
+		{
+			"id":"2",
+			"title":"国务院办公厅关于深化高等学校创新创业教育改革的实施意见（国办发〔2015〕36号）",
+			"time":"2017-06-10",
+			"url":"guidancePolicyDetailPage.html"
+		},
+		{
+			"id":"3",
+			"title":"国务院关于进一步做好新形势下就业创业工作的意见（国发〔2015〕23号）",
+			"time":"2017-06-10",
+			"url":"guidancePolicyDetailPage.html"
+		},
+		{
+			"id":"4",
+			"title":"教育部办公厅关于进一步做好高校学生参军入伍工作的通知（教学厅〔2015〕3号）",
+			"time":"2017-06-10",
+			"url":"guidancePolicyDetailPage.html"
+		},
+		{
+			"id":"5",
+			"title":"国务院办公厅关于发展众创空间推进大众创新创业的指导意见（国办发〔2015〕9号）",
+			"time":"2017-06-10",
+			"url":"guidancePolicyDetailPage.html"
+		}
+		
+		
+		
+		
+		
+		
+		
+	]
+}

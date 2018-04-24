@@ -1,0 +1,38 @@
+
+.container { width: 1200px; margin: 0 auto;}
+.css-breadcrumb {  height: 30px;  line-height: 30px;  margin-top: 10px;  padding: 0 20px;  background-color: #fff;  }
+.css-breadcrumb li {display: inline;}
+.css-content {margin-top: 20px;}
+.css-content .css-article-content {  margin: 0; height: 100%;  border: none;  padding: 15px 30px;  background-color: #fff;  }
+.css-content .css-article-content .css-title {  margin-bottom: 10px;  font-size: 24px; text-align: center;  }
+
+
+
+.css-content .css-article-content .tpp { width: 1136px; height: 65px; }
+.css-content .css-article-content .tpp .top { width: 1136px; height: 65px; float: left;  background: #fafafa;/* margin: 30px 0 0 42px;*/}
+.css-content .css-article-content .tpp .top .lt { width: 620px;  margin-left:40px; overflow: hidden; height: 65px; line-height: 65px; float: left; font-size: 24px; color: #000000; font-family: "Microsoft Yahei", "΢���ź�", Tahoma, Arial, Helvetica, STHeiti; }
+.css-content .css-article-content .tpp .top .ct { width: 187px;height: 65px; line-height: 65px;font-family: "Microsoft Yahei", "΢���ź�", Tahoma, Arial, Helvetica, STHeiti; font-size:18px; color: red; float: left;}
+.css-content .css-article-content .tpp .top .rt { width:80px; height: 35px;  line-height: 35px; color: #ffffff; padding-left: 30px; float:left; margin-top: 15px; cursor: pointer; background: #00abd8 url("../imgs/shenqing.png") no-repeat 8px 9px; display: block; }
+ .bg2 { background: #00abd8 url("../imgs/shoucang.png") no-repeat 8px 8px !important;}
+.css-article-content .css-con {width: 1136px; margin-top: 30px; }
+.css-con .css-left1 {width: 1136px;   background: #ffffff;   border: 1px solid #CCCCCC; /*margin:33px 0 0 0px;*/}
+.css-con .css-left1 .css-xuqiu{ width: 1136px; height: 57px; line-height: 57px;margin-bottom: 0;}
+.css-con .css-left1 .css-xuqiu li { width: 125px; height: 57px; background:url("../imgs/jingyan.png") no-repeat 15px center; padding-left:45px;float: left; }
+.w167 { width: 167px !important; padding-left:45px !important;}
+.li2 {  background: url("../imgs/xuelli.png") no-repeat 15px center !important; }
+.li3 {  background: url("../imgs/renshu.png") no-repeat 15px center !important; }
+.li4 {  background: url("../imgs/time.png") no-repeat 15px center !important; }
+ .css-con .css-left1 .css-ms {width: 1136px;/*  margin-bottom: 15px;*/}
+ .css-con .css-left1 .css-ms .tp { width: 1136px; height:42px; border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; background: #fafafa;}
+ .css-con .css-left1 .css-ms .tp .dian { float: left; width: 7px; height:20px; margin-top: 12px; }
+ .css-con .css-left1 .css-ms .tp .dian1 {  float: left; padding-left:10px; font-family: "Microsoft Yahei", "΢���ź�", Tahoma, Arial, Helvetica, STHeiti; font-size:18px; width: 229px; height:42px; line-height: 42px; }
+  .css-con .css-left1 .css-ms .css-text {  width: 1100px; line-height: 35px; margin: 15px 0 0 24px; }
+ .css-con .css-left1 .css-ms .css-text li {  width: 1100px; line-height: 35px;}
+/* .css-footer{min-width: 1200px;  width: 100%; height: 100px;  padding: 30px 0;  margin: -160px auto 0;  background: #333;  text-align: center;}
+.css-footer ul {  line-height: 24px;  }
+.css-footer .css-corplink {  margin-bottom: 15px;  }
+.css-footer .css-corplink li {  margin: 0 5px;  color: #ccc;display: inline; }
+.css-footer .css-corplink li a {  color: #ccc;  }
+.css-footer .css-corplink li a:hover {  color: #666;  } */
+
+

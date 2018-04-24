@@ -1,0 +1,313 @@
+
+.nav-main{
+    height:50px;
+   background-color:#01a1e7 ;
+}
+.nav-main ul{
+    width:1000px;/*1200*/
+    margin:0 auto;
+    font-size: 16px;
+    color: #fff;
+}
+.nav-main a{
+    float: left;
+    line-height: 50px;
+    padding:0 76px;
+    color: #fff
+}
+.nav-main a:hover{
+    background-color: #5eb7cf;
+}
+.nav-font{
+    color: #000000;
+    font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+   /*font-weight: bold;*/
+}
+
+/* 关键字*/
+.chazhao{
+    width:1198px;
+    font-size:15px;
+    height:100px;
+    border: 1px solid #d8d6d6;
+    margin:10px 0;
+}
+.chazhao-t ul{
+    height:40px;
+    margin-left: 30px;
+}
+.chazhao-t li{
+    float: left;
+    width:140px;
+    text-align: left;
+    padding: 15px 48px 5px  20px;
+}
+.chazhao-t li:nth-child(1){
+    width:270px;
+}
+.shuru{
+    height:50px;
+    text-align: left;
+    margin-left: 30px;
+}
+.shuru input:nth-child(1),.shuru select,.cittty{
+    height:30px;
+    padding:0 ;
+    width:120px;
+    margin:5px 40px;/* width:1000px:margin:5px 25px; */
+    border: 1px solid #d1cfcf;   
+}
+.cittty{
+    margin-top:0;
+    height:28px;
+    padding:0 5px;
+}
+.shuru input:nth-child(1){
+    height:28px;
+    margin-left:20px;
+    margin-top:0;
+    width:250px;
+    background-color: #fff;
+}
+.shuru-s{
+    height:30px;
+    width:80px;
+    background-color: #2ebee6;
+    color: #fff;
+    border:none;
+    margin-bottom:8px;
+    font-size: 14px;
+    
+}
+/* 岗位*/
+.gangwei-more{
+    height: 100px;
+    border: 1px solid #e0dede;
+    padding:15px;
+    margin:10px 0px;
+}
+.gangwei-left,.gangwei-middle{
+   float: left;
+}
+.gangwei-right{
+    float: right;
+    margin-right:10px;
+}
+.gangwei-more:hover{
+    border: 1px solid #00abd8;
+}
+.gangwei-left{
+    width:420px;
+}
+.gangwei-left p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #00abd8;
+    text-align: left;
+}
+.gangwei-left a{
+    color: #00abd8;
+}
+.gangwei-left li{
+    float: left;
+    font-size: 14px;
+    padding:10px 5px 10px 0;
+    color: #555;
+}
+.gangwei-left li:nth-child(1) {
+    color:#ff6600;
+}
+.gangwei-middle{
+    width: 450px;
+    text-align: left;
+    color: #555;
+    font-size: 14px;
+}
+.gangwei-middle img{
+    margin-left:4px;
+    
+}
+.gangwei-middle p,.gangwei-left p{
+    padding:5px 0;
+}
+.gangwei-middle p:first-child{
+    font-weight: bold;
+    font-size: 16px;   
+}
+.gangwei-sq{
+    height: 40px;
+    width:100px;
+    background-color: #00abd8;
+    text-align: center;
+    line-height: 40px;
+    margin:5px 0;
+}
+.gangwei-sq a{
+    color:white;
+}
+.gangwei-right p a:nth-child(1){
+    font-size: 14px;
+    color:#f2572d ;
+    float: left;
+    padding: 4px;
+}
+.gangwei-right p a:nth-child(2){
+    font-size: 14px;
+    color:#555;
+    float: right;
+    padding: 4px;
+}
+.ym{
+    height:30px;
+    padding:20px 0;
+    width:400px;
+    margin: 0 auto;
+}
+/* .ym ul{
+    height:30px;
+} */
+.ym li{
+    float: left;
+    margin:0 5px;
+}
+.ym li a{
+    border: 1px solid #ddd;
+    color: #333;
+    padding: 3px 6px;
+    font-size: 14px;
+}
+
+/* 校园宣讲会 */
+
+.xiaoyuan{
+    width:100%;
+    margin-top:15px;
+}
+.xiao-l{
+    background: #FFFFFF;
+    width:180px;
+    float: left;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+.xiao-l li{
+    padding:10px;
+    text-align: left;
+}
+.place{
+    height:20px;
+    background-color: #00abd8;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    padding:10px 12px;
+    line-height: 20px;
+}
+.xiao-r{
+    background: #FFFFFF;
+    border: 1px solid #ddd;
+    margin-left: 10px ;
+    float: left;
+    width:1005px;
+    font-size: 14px;
+}
+.xiao-r-t li{
+    float: left;
+    margin:10px 20px;
+    text-align: left;
+
+}
+.xiao-r-t li:nth-child(1),.xiao-y li a,.xiao-r-c li:nth-child(1){
+    width:350px;
+    display: inline-block;
+}
+.xiao-r-t li:nth-child(2),.xiao-x,.xiao-r-c li:nth-child(2){
+    display: inline-block;
+    width:220px;
+}
+.xiao-r-t li:nth-child(3),.xiao-q,.xiao-r-c li:nth-child(3){
+    display: inline-block;
+    width:160px;
+}
+.xiao-r-t{
+    height:40px;
+    border-bottom: 1px solid #ddd;
+}
+.xiao-r-w{
+    height:400px;
+}
+.xiao-y li{
+    float:left;
+    text-align: left;
+    height:40px;
+}
+.xiao-y li:hover{
+    background-color: #f5f5f5;
+}
+.xiao-y a,.xiao-y span{
+    
+    margin:10px 16px;
+}
+.xiao-y a{
+    color: #00abd8;
+}
+/*企业单位招考*/
+
+.notify{
+    margin-top:10px;
+}
+.notes{
+    /* margin: 10px 0; */
+    /* height:880px; */
+    border:1px solid #ddd;
+}
+.notes-title{
+    height:44px;
+    border-bottom:1px solid #ddd;
+}
+.notes-l{
+    margin:10px 20px;
+    float: left;
+}
+.notes-r{
+    margin:10px 60px;
+    float: right;
+}
+.notes-list {
+    text-align: left;
+    font-size: 14px;
+    
+}
+.notes-list a{
+    display: inline-block;
+    padding:15px 18px;
+}
+.notes-list li{
+   
+    border-bottom:1px solid #f6f6f6;
+    width:100%;
+}
+.notes-list li:hover{
+    background-color:#f5f5f5;
+}
+.notes-list span{
+    float: right;
+    padding:15px 18px;
+} 
+
+/*校园招聘公告*/
+.zp table{
+    font-size: 14px;
+    border:1px solid #e6e2e2;
+}
+.zp tr{
+    height:40px;
+    border:1px solid #e6e2e2;
+    
+}
+.zp td{
+    padding-left: 30px;
+}
+.zp tr:hover{
+    background-color:#f5f5f5;
+}

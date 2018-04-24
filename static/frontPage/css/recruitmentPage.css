@@ -1,0 +1,70 @@
+.nav-main{
+    height:50px;
+   background-color:#01a1e7 ;
+}
+.nav-main ul{
+    width:1000px;/*1200*/
+    margin:0 auto;
+    font-size: 16px;
+    color: #fff;
+}
+.nav-main a{
+    float: left;
+    line-height: 50px;
+    padding:0 76px;
+    color: #fff
+}
+.nav-main a:hover{
+    background-color: #5eb7cf;
+}
+
+
+#head{
+    width: 100%;
+    background-color: white;
+}
+#head1{
+    padding: 0 10px;
+    background-color: black;
+    height: 2.3em;
+    line-height: 2.3em;
+    text-align: center;
+    color: white;
+}
+#cen{
+    width: 1000px;
+    background-color: white;
+}
+#foot{
+    width: 100%;
+    height: 115px;
+    background-color: #3C3C3C;
+    color: white;
+    position: relative;
+    
+}
+center{
+    /* width: 100%; */
+    background-color: #f5f5f5;
+    padding:20px 0 ;
+}
+.xiangqing{
+    width:1000px;
+    margin:0 auto;
+    background-color: #fff;
+    padding:15px;
+    color: #555;
+}
+.riqi{
+    height:30px;
+}
+.riqi p{
+    float: right;
+    color: #777;
+    margin-right:40px;
+}
+.neirong{
+    padding:15px 20px 40px 20px;
+    font-size: 18px;
+    
+}
