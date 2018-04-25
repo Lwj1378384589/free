@@ -79,6 +79,29 @@ const webpackConfig = merge(baseWebpackConfig, {
       // necessary to consistently work with multiple chunks via CommonsChunkPlugin
       chunksSortMode: 'dependency'
     }),
+    new HtmlWebpackPlugin({
+
+      filename: config.build.backPage,   
+
+      template: 'backPage.html',
+
+      inject: true,
+
+      minify: {
+
+          removeComments: true,
+
+          collapseWhitespace: true,
+
+          removeAttributeQuotes: true
+
+      },
+
+      chunksSortMode: 'dependency',
+
+      chunks: ['manifest', 'vendor', 'backPage']
+
+  }),
     // keep module.id stable when vendor modules does not change
     new webpack.HashedModuleIdsPlugin(),
     // enable scope hoisting

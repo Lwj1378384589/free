@@ -9,8 +9,8 @@
             </ul>
             <ul class="css-right">
                 <li>
-                        <router-link to="/frontPage/disLogin"> 登录 </router-link>
-                    <!-- <a href="disLogin.html"  class="log">登录</a> -->
+                        <!-- <router-link to="/frontPage/disLogin"> 登录 </router-link> -->
+                    <a href="backPage.html">登录</a>
                 </li>
                 <li>
                     <router-link to="/frontPage/distRegist">免费注册 </router-link>

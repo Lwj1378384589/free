@@ -52,6 +52,13 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       template: 'index.html',
       inject: true
     }),
+    new HtmlWebpackPlugin({
+      filename: 'backPage.html',
+      template: 'src/pages/backPage/backPage.html',
+      inject: true,
+      chunks: ['backPage']
+
+  }),
     // copy custom static assets
     new CopyWebpackPlugin([
       {
