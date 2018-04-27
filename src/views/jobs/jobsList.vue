@@ -47,6 +47,7 @@ export default {
 </script>
 <script>
     var test;
+    import axiosApi from "@/api/public"
         export default{
             data() {
                 return {
@@ -71,11 +72,10 @@ export default {
 		      },
             getData(){
 				var _this = this;
-				_this.$http.get(
-					"/apis/api/getdata/jobs/jobinfo/simple?corp.id=5a9e2ed7a44cd66c81cfcf61&skip="+(this.currentPage-1)+"&limit="+this.pageSize
+				axiosApi.axiosGet(
+					"/apis/jobs/jobinfo/simple?corp.id=5a9e2ed7a44cd66c81cfcf61&skip="+(this.currentPage-1)+"&limit="+this.pageSize
 				).then((response) => {
 					if(response.data.errcode===1){
-						alert(response.data.errmsg);
 					}else{
 						_this.tableData = response.data.data;
 						_this.allSize = response.data
@@ -87,12 +87,11 @@ export default {
             },
             handleSizeChange(val) {
 				var _this = this;
-				 test=val;
-				 	_this.$http.get(
+                 test=val;
+                 axiosApi.axiosGet(
 						"/apis/jobs/jobinfo/simple?corp.id=5a9e2ed7a44cd66c81cfcf61&skip="+(this.currentPage-1)+"&limit="+test
 					).then((response) => {
 						if(response.data.errcode===1){
-							alert(response.data.errmsg);
 						}else{
 							 _this.tableData = response.data.data;
                             _this.pageSize=test;
@@ -104,11 +103,10 @@ export default {
 		      handleCurrentChange(val) {
 		    	  var _this = this;
 					 test=val;
-                    _this.$http.get(
+                     axiosApi.axiosGet(
                         "/apis/jobs/jobinfo/simple?corp.id=5a9e2ed7a44cd66c81cfcf61&skip="+(val-1)+"&limit="+_this.pageSize
                     ).then((response) => {
                         if(response.data.errcode===1){
-                            alert(response.data.errmsg);
                         }else{
                              _this.tableData = response.data.data;
                             _this.currentPage=test

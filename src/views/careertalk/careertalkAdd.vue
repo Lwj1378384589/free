@@ -99,7 +99,7 @@ export default {
 <script>
 
 import store from '@/store/store.js'
-
+import axiosApi from "@/api/public"
 export default{
     data() {
         return {
@@ -125,7 +125,7 @@ export default{
     methods: {
       getProvinceList: function(){
         var _this=this;
-        this.$http.get('/apis/api/getdata/naf/code/xzqh/list?parent=000000&level=1'
+        axiosApi.axiosGet('/apis/naf/code/xzqh/list?parent=000000&level=1'
         ).then(function(response){
             _this.provinceList=response.data.data;
         })
@@ -142,7 +142,7 @@ export default{
 						return false;
 					}
 					$("#cityBlock").attr("style","display:block");
-          this.$http.get('/apis/api/getdata/naf/code/xzqh/list?parent='+code+'&level=2'
+          axiosApi.axiosGet('/apis/naf/code/xzqh/list?parent='+code+'&level=2'
           ).then(function(response){
               _this.cityList=response.data.data;
           })
@@ -195,7 +195,7 @@ export default{
           }else{
             alert('请选择省份城市');
           }
-          this.$http.post("/apis/api/post/jobs/campus/create?corp.id=session.userId&corp.name=session.username",
+          axiosApi.axiosPost("/apis/api/post/jobs/campus/create?corp.id=session.userId&corp.name=session.username",
           {
             "subject":_this.subject,
             "content":_this.content,

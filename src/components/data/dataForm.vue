@@ -1,11 +1,6 @@
 <template>
     <el-form :model="testForm" ref="testForm" class="demo-dynamic" >
         <div class="renZheng" style="margin-top:0;" >
-            
-                <!-- <el-form-item  prop="name" label="招聘职位">
-                <el-input  class="xiaoT" v-model="testForm.name" id="name"></el-input>
-                </el-form-item> -->
-
                 <div class="renDetail">
                     <div prop="name" class="xiaoM">招聘职位：</div>
                     <div class="xiaoT">
@@ -32,26 +27,6 @@
                   <div class="renDetail"  style="width:300px;margin-left:350px;">                
                           <el-button v-on:click="resetForm('testForm')"  style="width:300px; ">重置</el-button>
                   </div>
-
-           
-        
-        <!-- <el-form-item 
-        prop="count"
-        label="招聘人数">
-        <el-input v-model="testForm.count" id="count"></el-input>
-        </el-form-item> -->
-        
-        <!-- <el-form-item 
-        prop="requirement"
-        label="招聘需求">
-        <el-input v-model="testForm.requirement" id="requirement"></el-input>
-        </el-form-item> -->
-
-        <!-- <el-form-item>
-          <el-button type="primary" @click="save()" >保存</el-button>
-          <el-button v-on:click="resetForm('testForm')">重置</el-button>
-        </el-form-item> -->
-
         </div>
 
       </el-form>
@@ -77,16 +52,22 @@ export default{
     methods:{
        save(){
             var map={};
+            var count=this.testForm.count;
+            var numReg=/^[0-9]*$/ ;
+            if(count==""||count==null){
+                return false;
+                }else{
+                    if(!numReg.test(count)){
+                        alert("请输入数字")
+                        return false
+                    }
+                }
             var name=this.testForm.name;
             if(name==""||name==null){
                 return false;
               }
           map["name"]=name;
           $("#name").val("");
-          var count=this.testForm.count;
-          if(count==""||count==null){
-              return false;
-            }
           map["count"]=count;
           $("#count").val("");
           var requirement=this.testForm.requirement;
@@ -96,8 +77,6 @@ export default{
           map["requirement"]=requirement;
           $("#requirement").val(""); 
           this.$store.commit("jobfairListAdd",map)
-        //   this.jobList.push(map);
-        //  const num=this.jobList.length;
        }
 
     }

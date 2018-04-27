@@ -51,7 +51,7 @@ export default {
 
 
 <script>
-
+import axiosApi from "@/api/public"
 export default{
     data() {
         return {
@@ -82,7 +82,7 @@ export default{
             alert("两次输入的密码不一致,请重新输入")
             return false;
         }
-        this.$http.post('/apis/api/post/platform/corp/passwd?_id=5a9e2ed7a44cd66c81cfcf61',
+        axiosApi.axiosPost('/apis/api/post/platform/corp/passwd?_id=5a9e2ed7a44cd66c81cfcf61',
         {
             'oldpass':this.oldpass,
             'newpass':this.newpass
@@ -91,12 +91,10 @@ export default{
         ).then(function(res){
             if(res.data.errcode==0){
             _this.$router.push({path:'/backpage'})
-            }else{
-                alert(res.data.errmsg)
             }
         })
         .catch(function(res){
-            alert(res.data.errmsg)
+            console.log(res.data.errmsg)
           })
            
     }

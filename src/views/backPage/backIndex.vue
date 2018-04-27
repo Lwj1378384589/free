@@ -42,6 +42,20 @@
     </div>
 </template>
 </html>
+
+<script>
+    import { menus } from '@/utils/menus';
+    export default {
+      data () {
+        return {
+          menus,
+          openeds: ['1','2','3','4'],
+          uniqueOpened: false
+        }
+      }
+    }
+    
+    </script>
 <script>
 import store from '@/store/store.js'
 export default {
@@ -80,19 +94,4 @@ margin-right:10px;
 float: left;
     position: static;
 }
-
-
-
 </style>
-
-
-
-
-<!-- 
-<style>
-#backIndex{
-float: left;
-height:800px;
-}
-</style>
- -->

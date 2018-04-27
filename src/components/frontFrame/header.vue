@@ -3,12 +3,12 @@
             <div  style="padding-top:40px;"><!-- class="css-out-content" -->
                 <div class="css-header"  style="font-size:16px;">
                     <div class="container">
-                        <router-link to="/frontPage" title="惠安智慧就业平台"> 
+                        <router-link to="/www" title="惠安智慧就业平台"> 
                         <!-- <a href="index.html" title="惠安智慧就业平台"> -->
-                            <img src="/static/frontPage/imgs/a.jpg" class="css-logo pull-left" style="width:230px; height:40px;" >
+                            <img src="/static/www/imgs/a.jpg" class="css-logo pull-left" style="width:230px; height:40px;" >
                         <!-- </a> --></router-link>
                         <div class="css-subwebsite pull-left"  style="background: url('imgs/enterr.png') no-repeat left 5px;">
-                            <router-link to="/frontPage/SchoolList"><b>进入子站</b><span class="text-primary">[切换分站]</span> </router-link>
+                            <router-link to="/www/SchoolList"><b>进入子站</b><span class="text-primary">[切换分站]</span> </router-link>
                             <!-- <a href="SchoolList.html"><b>进入子站</b><span class="text-primary">[切换分站]</span></a> -->
                         </div>
                         <div class="css-right pull-right">
@@ -42,9 +42,9 @@
                                         <div class="box1" id="box1">
                                             <div class="list-left">
                                                 <ul  class="lt-ul">
-                                                    <li><router-link to="/frontPage/recruitment">岗位信息</router-link></li>
-                                                    <li><router-link to="/frontPage/campusTalkPage">校园宣讲会</router-link></li>
-                                                    <li><router-link to="/frontPage/campusRecruitmentPage">校园招聘公告</router-link></li>
+                                                    <li><router-link to="/www/recruitment">岗位信息</router-link></li>
+                                                    <li><router-link to="/www/campusTalkPage">校园宣讲会</router-link></li>
+                                                    <li><router-link to="/www/campusRecruitmentPage">校园招聘公告</router-link></li>
                                                 </ul>
                                             </div>
                                             <div class="list-con">
@@ -74,41 +74,41 @@
                                             <div class="css-subMenu">
                                                 <div class="top-M">就业信息</div>
                                                 <ul class="Mul">
-                                                    <li><router-link to="/frontPage/recruitment">岗位信息</router-link></li>
-                                                    <li><router-link to="/frontPage/campusTalkPage">校园宣讲会</router-link></li>
-                                                    <li><router-link to="/frontPage/campusRecruitmentPage">校园招聘公告</router-link></li>
+                                                    <li><router-link to="/www/recruitment">岗位信息</router-link></li>
+                                                    <li><router-link to="/www/campusTalkPage">校园宣讲会</router-link></li>
+                                                    <li><router-link to="/www/campusRecruitmentPage">校园招聘公告</router-link></li>
                                                 </ul>
                                             </div>
     
                                             <div class="css-subMenu">
                                                 <div class="top-M">职业辅导</div>
                                                 <ul class="Mul">
-                                                        <li><router-link to="/frontPage/guidance">政策法规</router-link></li>
-                                                        <li><router-link to="/frontPage/guidance">就业心得</router-link></li>
-                                                        <li><router-link to="/frontPage/guidance">辅导活动</router-link></li>
-                                                        <li><router-link to="/frontPage/guidance">职业课程</router-link></li>
-                                                        <li><router-link to="/frontPage/guidance">专家咨询</router-link></li>
+                                                        <li><router-link to="/www/guidance">政策法规</router-link></li>
+                                                        <li><router-link to="/www/guidance">就业心得</router-link></li>
+                                                        <li><router-link to="/www/guidance">辅导活动</router-link></li>
+                                                        <li><router-link to="/www/guidance">职业课程</router-link></li>
+                                                        <li><router-link to="/www/guidance">专家咨询</router-link></li>
                                                 </ul>
                                             </div>
     
                                             <div class="css-subMenu">
                                                 <div class="top-M">就业服务</div>
                                                 <ul class="Mul">
-                                                        <li><router-link to="/frontPage/StudentLogin">学历学位认证</router-link></li>
-                                                        <li><router-link to="/frontPage/StudentLogin">电子图像校对</router-link></li>
-                                                        <li><router-link to="/frontPage/StudentLogin">报到证查询</router-link></li>
+                                                        <li><router-link to="/www/StudentLogin">学历学位认证</router-link></li>
+                                                        <li><router-link to="/www/StudentLogin">电子图像校对</router-link></li>
+                                                        <li><router-link to="/www/StudentLogin">报到证查询</router-link></li>
                                                 </ul>
                                             </div>
     
                                             <div class="css-subMenu">
                                                 <div class="top-M">用户中心</div>
                                                 <ul class="Mul">
-                                                        <li><router-link to="/frontPage/StudentLogin">推荐表注册</router-link></li>
-                                                        <li><router-link to="/frontPage/StudentLogin">简历管理</router-link></li>
-                                                        <li><router-link to="/frontPage/StudentLogin">职位收藏夹</router-link></li>
-                                                        <li><router-link to="/frontPage/StudentLogin">职位申请记录</router-link></li>
-                                                        <li><router-link to="/frontPage/StudentLogin">我的日程表</router-link></li>
-                                                        <li><router-link to="/frontPage/StudentLogin">账号设置</router-link></li>
+                                                        <li><router-link to="/www/StudentLogin">推荐表注册</router-link></li>
+                                                        <li><router-link to="/www/StudentLogin">简历管理</router-link></li>
+                                                        <li><router-link to="/www/StudentLogin">职位收藏夹</router-link></li>
+                                                        <li><router-link to="/www/StudentLogin">职位申请记录</router-link></li>
+                                                        <li><router-link to="/www/StudentLogin">我的日程表</router-link></li>
+                                                        <li><router-link to="/www/StudentLogin">账号设置</router-link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -120,30 +120,30 @@
                                             <div class="css-subMenu">
                                                 <div class="top-M">基础服务</div>
                                                 <ul class="Mul">
-                                                        <li><router-link to="/frontPage/UnitReg">单位注册</router-link></li>
-                                                        <li><router-link to="/frontPage/UnitReg">职位发布</router-link></li>
+                                                        <li><router-link to="/www/UnitReg">单位注册</router-link></li>
+                                                        <li><router-link to="/www/UnitReg">职位发布</router-link></li>
                                                 </ul>
                                             </div>
     
                                             <div class="css-subMenu">
                                                 <div class="top-M">充值服务</div>
                                                 <ul class="Mul">
-                                                        <li><router-link to="/frontPage/unitLogin">广告申请</router-link></li>
-                                                        <li><router-link to="/frontPage/unitLogin">职位置顶</router-link></li>
-                                                        <li><router-link to="/frontPage/unitLogin">定向发布</router-link></li>
-                                                        <li><router-link to="/frontPage/unitLogin">下载简历</router-link></li>
-                                                        <li><router-link to="/frontPage/unitLogin">职位邀请</router-link></li>
+                                                        <li><router-link to="/www/unitLogin">广告申请</router-link></li>
+                                                        <li><router-link to="/www/unitLogin">职位置顶</router-link></li>
+                                                        <li><router-link to="/www/unitLogin">定向发布</router-link></li>
+                                                        <li><router-link to="/www/unitLogin">下载简历</router-link></li>
+                                                        <li><router-link to="/www/unitLogin">职位邀请</router-link></li>
                                                 </ul>
                                             </div>
     
                                             <div class="css-subMenu">
                                                 <div class="top-M">会员服务</div>
                                                 <ul class="Mul">
-                                                        <li><router-link to="/frontPage/unitLogin">充值服务所有内容</router-link></li>
-                                                        <li><router-link to="/frontPage/unitLogin">校园统一认证</router-link></li>
-                                                        <li><router-link to="/frontPage/unitLogin">生源专业查询</router-link></li>
-                                                        <li><router-link to="/frontPage/unitLogin">招聘会展位优选</router-link></li>
-                                                        <li><router-link to="/frontPage/unitLogin">专属在线客服</router-link></li>
+                                                        <li><router-link to="/www/unitLogin">充值服务所有内容</router-link></li>
+                                                        <li><router-link to="/www/unitLogin">校园统一认证</router-link></li>
+                                                        <li><router-link to="/www/unitLogin">生源专业查询</router-link></li>
+                                                        <li><router-link to="/www/unitLogin">招聘会展位优选</router-link></li>
+                                                        <li><router-link to="/www/unitLogin">专属在线客服</router-link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -155,9 +155,9 @@
                                             <div class="css-subMenu">
                                                 <div class="top-M">就业管理</div>
                                                 <ul class="Mul">
-                                                        <li><router-link to="/frontPage/disLogin">推荐表审核</router-link></li>
-                                                        <li><router-link to="/frontPage/disLogin">协议书审核</router-link></li>
-                                                        <li><router-link to="/frontPage/disLogin">电子图像校对</router-link></li>
+                                                        <li><router-link to="/www/disLogin">推荐表审核</router-link></li>
+                                                        <li><router-link to="/www/disLogin">协议书审核</router-link></li>
+                                                        <li><router-link to="/www/disLogin">电子图像校对</router-link></li>
                                                 </ul>
                                             </div>
     
@@ -177,7 +177,7 @@
                 </div>
                     <ul class="pull-left css-navbar">
                         <li><router-link to="/" class="li_a">平台首页</router-link></li>
-                        <li><router-link to="/frontPage/StudentLogin">学生用户</router-link></li>
+                        <li><router-link to="/www/StudentLogin">学生用户</router-link></li>
                     </ul>
                 </div>
             </div>
@@ -186,6 +186,7 @@
     </div>
 </template>
 <script>
+import axiosApi from "@/api/public"
 import store from '@/store/store.js'
 export default{
     data() {
@@ -204,7 +205,7 @@ export default{
         getPositionIndustry: function(){
 				//按行业查看职位
 				var _this = this;
-				_this.$http.get(
+				axiosApi.axiosGet(
 					"/apis/naf/code/items/35/list"
 				).then((response) => {
 					if(response.data.errcode===1){
@@ -219,7 +220,7 @@ export default{
         getPositionType: function(){
 				//按类别查看职位
 				var _this = this;
-				_this.$http.get(
+				axiosApi.axiosGet(
 					"/apis/naf/code/items/36/list"
 				).then((response) => {
 					if(response.data.errcode===1){

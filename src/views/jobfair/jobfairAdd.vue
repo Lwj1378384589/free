@@ -8,10 +8,10 @@
             <form   style="margin:10px auto; margin-top:60px; text-align:center; ">
                 
                 <DataForm></DataForm>
-                <!-- <DataTable></DataTable> -->
-                <!-- <div class="renDetail">
+                <DataTable></DataTable>
+                <div class="renDetail1">
                     <el-button type="primary" class="btncss" id="sub" @click="submit">提交</el-button>
-                </div> -->
+                </div>
             </form>
         </div>
     </div>
@@ -20,35 +20,35 @@
 <script>
 import store from '@/store/store.js'
 import DataForm from "@/components/data/dataForm"
-// import DataTable from "@/components/data/dataTable"
+import DataTable from "@/components/data/dataTable"
+import axiosApi from "@/api/public"
 export default{
     data(){
         return{
-
+            id:this.$route.query._id,
         }
     },
     store,
     components:{
-      DataForm,
+      DataForm,DataTable
     },
     methods:{
         submit(){
             var _this=this;
-            var id='5aaa24e61ab25764103600a2';
-            this.$http.post("/apis/api/post/jobs/jobfair/corp/apply?corp.id=session.userId&corp.name=session.userName&_id="+id,
+            var _id='5aaa24e61ab25764103600a2';
+            axiosApi.axiosPost("/apis/api/post/jobs/jobfair/corp/apply?corp.id=session.userId&corp.name=session.userName&_id="+_id,
             {
                 "jobs":store.state.jobfairList
             })
             .then(function(response){
                 if(response.data.errcode==0){
                 _this.$router.push({path:'/jobfair/jobfairList'})
-                }else{
-                    alert(response.data.errmsg)
                 }
+                _this.$store.commit("jobfairListInit")
             })
-            .catch(function(res){
-                alert(res.data.errmsg)
-            })
+            // .catch(function(res){
+            //     alert(res.data.errmsg)
+            // })
 
         }
     }
@@ -62,6 +62,10 @@ export default{
 }
 .renDetail{
   margin-left:250px;
+  margin-bottom:15px;
+}
+.renDetail1{
+  margin-left:150px;
   margin-bottom:15px;
 }
 #aside{

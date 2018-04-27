@@ -16,7 +16,7 @@ module.exports = {
         target:'http://oa.chinahuian.cn',
         changeOrigin:true,
         pathRewrite:{
-          '^/apis':'/'
+          '^/apis':''
         }
       }
 

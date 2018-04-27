@@ -2,13 +2,13 @@ import main from '@/components/main.vue';
 import mainSecond from '@/components/mainSecond.vue'
 import backIndex from '@/views/backPage/backIndex.vue';
 import frontPageMain from '@/components/frontPageMain.vue'
-import frontIndex from '@/views/frontPage/frontIndex.vue'
+import frontIndex from '@/views/www/frontIndex.vue'
 import frontPageSecond from '@/components/frontPageSecond.vue'
-import testPage from '@/views/frontPage/testPage.vue'
+import testPage from '@/views/www/testPage.vue'
 import { routes } from '@/utils/menus';
 import { frontRoutes } from '@/utils/frontMenus'
 import { disRoutes } from '@/utils/disMenus'
-import distRegist from '@/views/frontPage/distRegist.vue'
+import distRegist from '@/views/www/distRegist.vue'
 
 const _routes=[
     {
