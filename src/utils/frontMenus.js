@@ -5,76 +5,86 @@ const datas=[
     children:[
         {
           title:'岗位信息',
-          path:'/frontPage/recruitment',
-          page:'frontPage.recruitment',
+          path:'/www/recruitment',
+          page:'www.recruitment',
 
         },
         {
           title:'校园宣讲会',
-          path:'/frontPage/campusTalkPage',
-          page:'frontPage.campusTalkPage',
+          path:'/www/campusTalkPage',
+          page:'www.campusTalkPage',
 
         },
         {
           title:'校园招聘公告',
-          path:'/frontPage/campusRecruitmentPage',
-          page:'frontPage.campusRecruitmentPage',
+          path:'/www/campusRecruitmentPage',
+          page:'www.campusRecruitmentPage',
 
         },
         {
           title:'宣讲会详情',
-          path:'/frontPage/companyDetailPage',
-          page:'frontPage.companyDetailPage',
+          path:'/www/companyDetailPage',
+          page:'www.companyDetailPage',
 
         } ,
         {
           title:'校园招聘详情',
-          path:'/frontPage/companyPage',
-          page:'frontPage.companyPage',
+          path:'/www/companyPage',
+          page:'www.companyPage',
         },
         {
           title:'招聘信息详情',
-          path:'/frontPage/recruitmentDetailPage',
-          page:'frontPage.recruitmentDetailPage',
+          path:'/www/recruitmentDetailPage',
+          page:'www.recruitmentDetailPage',
         },
         {
           title:'help',
-          path:'/frontPage/help',
-          page:'frontPage.help',
+          path:'/www/help',
+          page:'www.help',
         } ,,
         {
           title:'guidanceVocationalPage',
-          path:'/frontPage/guidanceVocationalPage',
-          page:'frontPage.guidanceVocationalPage',
+          path:'/www/guidanceVocationalPage',
+          page:'www.guidanceVocationalPage',
         } ,
         {
           title:'guidancePolicyDetailPage',
-          path:'/frontPage/guidancePolicyDetailPage',
-          page:'frontPage.guidancePolicyDetailPage',
+          path:'/www/guidancePolicyDetailPage',
+          page:'www.guidancePolicyDetailPage',
         },
         {
           title:'guidanceExperiencePage',
-          path:'/frontPage/guidanceExperiencePage',
-          page:'frontPage.guidanceExperiencePage',
+          path:'/www/guidanceExperiencePage',
+          page:'www.guidanceExperiencePage',
         },
         {
           title:'guidanceCoachPage',
-          path:'/frontPage/guidanceCoachPage',
-          page:'frontPage.guidanceCoachPage',
+          path:'/www/guidanceCoachPage',
+          page:'www.guidanceCoachPage',
         } ,
         {
           title:'guidance',
-          path:'/frontPage/guidance',
-          page:'frontPage.guidance',
+          path:'/www/guidance',
+          page:'www.guidance',
         },
         {
           title:'notice',
-          path:'/frontPage/notice',
-          page:'frontPage.notice',
+          path:'/www/notice',
+          page:'www.notice',
+        },
+        {
+          title:'recruitmentBrochureDetailPage',
+          path:'/www/recruitmentBrochureDetailPage',
+          page:'www.recruitmentBrochureDetailPage',
+        },
+        {
+          title:'recruitmentBrochurePage',
+          path:'/www/recruitmentBrochurePage',
+          page:'www.recruitmentBrochurePage',
         }
         
 
-    ]
+    ] 
 
 }
 

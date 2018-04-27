@@ -47,8 +47,8 @@
         </div>
     </template>
     <script>
+    import axiosApi from "@/api/public"
     export default{
-        
         data() {
             return {
                 id:this.$route.query._id,
@@ -67,18 +67,17 @@
       methods:{
         getProvinceList: function(){
       var _this = this;
-			_this.$http.get(
-				"/apis/api/getdata/naf/code/xzqh/list?parent=000000&level=1"
+			axiosApi.axiosGet(
+				"/apis/naf/code/xzqh/list?parent=000000&level=1"
 			).then((response) => {
 				if(response.data.errcode===1){
-					alert(response.data.errmsg);
 				}else{
-					_this.provinceList = response.data.data;
+          _this.provinceList = response.data.data;
 				}
 			}),function(error){
 				$.alert('对不起，你的请求处理失败了!');   //失败处理
 			}
-		},
+    },
 		 change:function(){
       var _this = this;
 			var code=_this.provinceSelect;
@@ -87,29 +86,43 @@
 				return false;
 			}
 			$("#cityBlock").attr("style","display:block");
-      $("#cityBlock").attr("style","display:block");
-      _this.$http.get(
-        '/apis/api/getdata/naf/code/xzqh/list?parent='+this.provinceSelect+'&level=2'
+      axiosApi.axiosGet(
+        '/apis/naf/code/xzqh/list?parent='+this.provinceSelect+'&level=2'
       ).then((response)=>{
         _this.cityList=response.data.data;
       })
 		},
         getData: function(){
          var _this =this
-			_this.$http.get(
-				"/apis/api/getdata/jobs/jobinfo/fetch?_id="+_this.id
-			).then((response) => {
-				if(response.data.errcode===1){
-					alert(response.data.errmsg);
-				}else{
-					_this.id=response.data.data._id
-					_this.title=response.data.data.title
-					_this.content=response.data.data.content
-					_this.city=response.data.data.city.name
-				}
-			}),function(error){
-				$.alert('对不起，你的请求处理失败了!');   //失败处理
-			}
+          axiosApi.axiosGet(
+            "/apis/jobs/jobinfo/fetch?_id="+_this.id
+          ).then((response) => {
+            if(response.data.errcode===1){
+            }else{
+              _this.id=response.data.data._id
+              _this.title=response.data.data.title
+              _this.content=response.data.data.content
+              _this.city=response.data.data.city.name
+              var provinceCode=response.data.data.city.code.substring(0,2);
+              _this.provinceSelect=provinceCode+"0000";
+              var code=_this.provinceSelect;
+              if(code=="110000"||code=="120000"||code=="310000"||code=="500000"||code=="710000"||code=="810000"||code=="820000"){
+                $("#cityBlock").attr("style","display:none");
+              }else{
+                $("#cityBlock").attr("style","display:block");
+                axiosApi.axiosGet(
+                '/apis/naf/code/xzqh/list?parent='+_this.provinceSelect+'&level=2'
+                ).then((response)=>{
+                  _this.cityList=response.data.data;
+                })
+                _this.citySelect=response.data.data.city.code;
+              }
+              
+              
+            }
+          }),function(error){
+            $.alert('对不起，你的请求处理失败了!');   //失败处理
+          }
 		},
         up:function(){
           var _this = this;
@@ -119,7 +132,7 @@
             }else{
               cityid =this.citySelect
             }
-            this.$http.post('/apis/api/post/jobs/jobinfo/update?corp.id=5a9e2ed7a44cd66c81cfcf61&_id='+_this.id,
+            axiosApi.axiosPost('/apis/api/post/jobs/jobinfo/update?corp.id=5a9e2ed7a44cd66c81cfcf61&_id='+_this.id,
             {
                 "title":this.title,
                 "content":this.content,
@@ -128,7 +141,6 @@
                  } 
             }
             ).then(function(res){
-                alert(res.data.errmsg)
                 _this.$router.push({path:'/jobs/jobsList'})
             })
             .catch(function(res){

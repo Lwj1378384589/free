@@ -5,40 +5,40 @@ const datas=[
     children:[
         {
           title:'选择注册用户类型',
-          path:'/frontPage/distRegist',
-          page:'frontPage.distRegist',
+          path:'/www/distRegist',
+          page:'www.distRegist',
 
         },
         {
           title:'选择登录用户类型',
-          path:'/frontPage/disLogin',
-          page:'frontPage.disLogin',
+          path:'/www/disLogin',
+          page:'www.disLogin',
 
         },
         {
           title:'企业登录页面',
-          path:'/frontPage/unitLogin',
-          page:'frontPage.unitLogin',
+          path:'/www/unitLogin',
+          page:'www.unitLogin',
         }, 
         {
             title:'企业注册页面',
-            path:'/frontPage/UnitReg',
-            page:'frontPage.UnitReg',
+            path:'/www/UnitReg',
+            page:'www.UnitReg',
         },
         {
             title:'企业注册页面2',
-            path:'/frontPage/UnitReg2',
-            page:'frontPage.UnitReg2',
+            path:'/www/UnitReg2',
+            page:'www.UnitReg2',
         },
         {
           title:'学生注册页面',
-          path:'/frontPage/StuReg',
-          page:'frontPage.StuReg',
+          path:'/www/StuReg',
+          page:'www.StuReg',
         },
         {
           title:'学生登录页面',
-          path:'/frontPage/StudentLogin',
-          page:'frontPage.StudentLogin',
+          path:'/www/StudentLogin',
+          page:'www.StudentLogin',
         },
         
 
