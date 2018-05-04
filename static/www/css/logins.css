@@ -1,0 +1,51 @@
+.css-main-u{
+    position: relative;
+}
+.login-backgroundimg{
+    background: url("/static//www/imgs/sunset.jpg") no-repeat top center; background-size:100% 700px;
+    width: 100%; min-height:700px; overflow: hidden;
+}
+.somewords{
+    color: #ffffff; font-size: 40px; line-height: 45px;
+}
+.somewords span{
+    display: block; font-size: 20px; line-height:20px;
+}
+.login-contain{
+    position: absolute; right:200px; top:100px;width: 350px; height:360px; background-color: #fff; 
+    border-radius: 3px; opacity: 0.9;
+}
+.classify{
+    height:50px; font-size: 1.2em;
+}
+.classify1,.zidong{
+    float: left; padding:20px 40px;
+}
+.classify2,.forget{
+    float: right; padding:20px 40px;
+}
+.login-passmore{
+  height: 60px;
+}
+.zidong，.forget{ 
+    color: #888; 
+}
+.login-text,.login-pass{
+    margin: 10px 30px; padding: 5px; width:270px; height:25px; background-color: #fff; ;
+}
+.login-btn{
+    height:40px; width:270px; font-size: 1.2em; margin: 10px 35px; border: none; letter-spacing: 20px;
+    background-color: #1296db; border-radius: 4px;
+}
+.login-btn a{
+    display: block; color: #fff; height:40px; width:270px; line-height:40px;text-align: center;
+}
+.login-btn a:hover{
+  background-color: #25adf7; border-radius: 4px;
+}
+.login-forget{
+    font-size: 1em; /* color: #3b8834;   */
+}
+.login-sign{
+    float: right; padding:20px 40px; color: #888; font-size: 1.1em;
+}
