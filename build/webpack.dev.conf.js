@@ -59,6 +59,13 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       chunks: ['backPage']
 
   }),
+   new HtmlWebpackPlugin({
+      filename: 'jobfair.html',
+      template: 'src/views/jobfair/jobfair.html',
+      inject: true,
+      chunks: ['jobfair']
+
+  }),
     // copy custom static assets
     new CopyWebpackPlugin([
       {

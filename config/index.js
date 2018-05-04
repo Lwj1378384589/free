@@ -57,6 +57,8 @@ module.exports = {
     // Template for index.html
     index: path.resolve(__dirname, '../dist/index.html'),
     backPage: path.resolve(__dirname, '../dist/backPage.html'),
+    jobfair: path.resolve(__dirname, '../dist/jobfair.html'),
+    
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),

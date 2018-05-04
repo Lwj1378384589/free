@@ -80,27 +80,28 @@ const webpackConfig = merge(baseWebpackConfig, {
       chunksSortMode: 'dependency'
     }),
     new HtmlWebpackPlugin({
-
       filename: config.build.backPage,   
-
       template: 'backPage.html',
-
       inject: true,
-
       minify: {
-
           removeComments: true,
-
           collapseWhitespace: true,
-
           removeAttributeQuotes: true
-
       },
-
       chunksSortMode: 'dependency',
-
       chunks: ['manifest', 'vendor', 'backPage']
-
+  }),
+     new HtmlWebpackPlugin({
+      filename: config.build.jobfair,   
+      template: 'jobfair.html',
+      inject: true,
+      minify: {
+          removeComments: true,
+          collapseWhitespace: true,
+          removeAttributeQuotes: true
+      },
+      chunksSortMode: 'dependency',
+      chunks: ['manifest', 'vendor', 'jobfair']
   }),
     // keep module.id stable when vendor modules does not change
     new webpack.HashedModuleIdsPlugin(),
