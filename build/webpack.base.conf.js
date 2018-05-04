@@ -23,6 +23,7 @@ module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
     app: './src/main.js',
+    jobfair: './src/views/jobfair/jobfair.js',
     backPage: './src/pages/backPage/backPage.js'
   },
   output: {
