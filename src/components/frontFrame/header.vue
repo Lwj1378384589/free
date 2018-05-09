@@ -42,9 +42,12 @@
                                         <div class="box1" id="box1">
                                             <div class="list-left">
                                                 <ul  class="lt-ul">
-                                                    <li><router-link to="/www/recruitment">岗位信息</router-link></li>
+                                                        <li><a href="jobfair.html">岗位信息</a></li>
+                                                        <li><a href="careertalk.html">校园宣讲会</a></li>
+                                                        <li><a href="jobs.html">校园招聘会</a></li>
+                                                    <!-- <li><router-link to="/www/recruitment">岗位信息</router-link></li>
                                                     <li><router-link to="/www/campusTalkPage">校园宣讲会</router-link></li>
-                                                    <li><router-link to="/www/campusRecruitmentPage">校园招聘公告</router-link></li>
+                                                    <li><router-link to="/www/campusRecruitmentPage">校园招聘公告</router-link></li> -->
                                                 </ul>
                                             </div>
                                             <div class="list-con">
@@ -74,9 +77,12 @@
                                             <div class="css-subMenu">
                                                 <div class="top-M">就业信息</div>
                                                 <ul class="Mul">
-                                                    <li><router-link to="/www/recruitment">岗位信息</router-link></li>
+                                                        <li><a href="jobfair.html">岗位信息</a></li>
+                                                        <li><a href="careertalk.html">校园宣讲会</a></li>
+                                                        <li><a href="jobs.html">校园招聘会</a></li>
+                                                    <!-- <li><router-link to="/www/recruitment">岗位信息</router-link></li>
                                                     <li><router-link to="/www/campusTalkPage">校园宣讲会</router-link></li>
-                                                    <li><router-link to="/www/campusRecruitmentPage">校园招聘公告</router-link></li>
+                                                    <li><router-link to="/www/campusRecruitmentPage">校园招聘公告</router-link></li> -->
                                                 </ul>
                                             </div>
     
@@ -176,7 +182,8 @@
 
                 </div>
                     <ul class="pull-left css-navbar">
-                        <li><router-link to="/" class="li_a">平台首页</router-link></li>
+                            <li><a href="index.html" class="li_a">平台首页</a></li>
+                        <!-- <li><router-link to="/" class="li_a">平台首页</router-link></li> -->
                         <li><router-link to="/www/StudentLogin">学生用户</router-link></li>
                     </ul>
                 </div>

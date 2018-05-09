@@ -2,7 +2,7 @@ import main from '@/components/main.vue';
 import mainSecond from '@/components/mainSecond.vue'
 import backIndex from '@/views/backPage/backIndex.vue';
 import frontPageMain from '@/components/frontPageMain2.vue'
-import frontIndex from '@/views/www/recruitment.vue'
+import frontIndex from '@/views/www/campusRecruitmentPage.vue'
 import frontPageSecond from '@/components/frontPageSecond2.vue'
 import testPage from '@/views/www/testPage.vue'
 import { routes } from '@/utils/menus';

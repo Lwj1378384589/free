@@ -3,8 +3,10 @@
    <div>
     <div class="weui-tab" style="margin-top:10px; width:1200px; margin:0 auto;">
         <div class="weui-navbar" style="background: #FFFFFF;">
-            
-            <router-link class="weui-navbar__item nav-font" to="/www/recruitment">
+                <a class="weui-navbar__item nav-font" href="jobfair.html">岗位信息</a>
+                <a class="weui-navbar__item nav-font" href="careetalk.html">校园宣讲会</a>
+                <a class="weui-navbar__item nav-font" href="jobs.html">校园招聘会</a>    
+            <!-- <router-link class="weui-navbar__item nav-font" to="/www/recruitment">
                 岗位信息
             </router-link>
             <router-link class="weui-navbar__item nav-font weui-bar__item--on" to="/www/campusTalkPage">
@@ -12,7 +14,7 @@
             </router-link>
             <router-link class="weui-navbar__item nav-font" to="/www/campusRecruitmentPage">
                 校园招聘会
-            </router-link>
+            </router-link> -->
         </div>
         <div class="weui-tab__bd">
             <div id="tab2" class="weui-tab__bd-item weui-tab__bd-item--active">

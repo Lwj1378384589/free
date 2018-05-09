@@ -49,9 +49,12 @@
 									<div class="box1" id="box1">
 										<div class="list-left">
 											<ul  class="lt-ul">
-												<li><router-link to="/www/recruitment">岗位信息</router-link></li>
+												<li><a href="jobfair.html">岗位信息</a></li>
+												<li><a href="careertalk.html">宣讲会信息</a></li>
+												<li><a href="jobs.html">校园招聘信息</a></li>
+												<!-- <li><router-link to="/www/recruitment">岗位信息</router-link></li>
 												<li><router-link to="/www/campusTalkPage">校园宣讲会</router-link></li>
-												<li><router-link to="/www/campusRecruitmentPage">校园招聘公告</router-link></li>
+												<li><router-link to="/www/campusRecruitmentPage">校园招聘公告</router-link></li> -->
 											</ul>
 										</div>
 										<div class="list-con">
@@ -79,9 +82,12 @@
 										<div class="css-subMenu">
 											<div class="top-M">就业信息</div>
 											<ul class="Mul">
-												<li><router-link to="/www/recruitment">岗位信息</router-link></li>
+													<li><a href="jobfair.html">岗位信息</a></li>
+													<li><a href="careertalk.html">宣讲会信息</a></li>
+													<li><a href="jobs.html">校园招聘信息</a></li>
+												<!-- <li><router-link to="/www/recruitment">岗位信息</router-link></li>
 												<li><router-link to="/www/campusTalkPage">校园宣讲会</router-link></li>
-												<li><router-link to="/www/campusRecruitmentPage">校园招聘公告</router-link></li>
+												<li><router-link to="/www/campusRecruitmentPage">校园招聘公告</router-link></li> -->
 											</ul>
 										</div>
 
@@ -314,7 +320,8 @@
 										</div>
 									</div>
 									<div class="job-box">
-											<p><router-link to="/www/campusTalkPage">校园宣讲会：<span style="color:#00B8EC ">1场</span></router-link></p>
+										<p><a href="careertalk.html">校园宣讲会：<span style="color:#00B8EC ">1场</span></a></p>
+											<!-- <p><router-link to="/www/campusTalkPage">校园宣讲会：<span style="color:#00B8EC ">1场</span></router-link></p> -->
 
 									</div>
 								</div>
@@ -440,11 +447,13 @@ export default{
         return {
             tabsName: [{
 				name: "校园宣讲会",
-				url:"/www/campusTalkPage",
+				url:"careertalk.html",
+				// url:"/www/campusTalkPage",
 				isActive: true
 			}, {
 				name: "校园招聘公告",
-				url:"/www/campusRecruitmentPage",
+				url:"jobs.html",
+				// url:"/www/campusRecruitmentPage",
 				isActive: false
 			}],
             active: false,
@@ -684,25 +693,27 @@ export default{
 		},
 		findly: function(ctim){
 			//跳转宣讲会详情
-			var _this =this;
-                _this.$router.push({
-                    path:'/www/companyDetailPage',
-                    query: {
-                     "_id": ctim._id
-                        }
-                })
+			window.location.href="careertalk.html#/www/companyDetailPage?_id="+ctim._id;
+			// var _this =this;
+            //     _this.$router.push({
+            //         path:'/www/companyDetailPage',
+            //         query: {
+            //          "_id": ctim._id
+            //             }
+            //     })
 			
 			//location.href="companyDetailPage?id="+ctim._id;
 		},
 		find: function(dtim){
 			//跳转校园招聘公告详情
-			var _this =this;
-                _this.$router.push({
-                    path:'/www/companyPage',
-                    query: {
-                     "_id": dtim._id
-                        }
-                })
+			window.location.href="jobs.html#/www/companyPage?_id="+dtim._id;
+			// var _this =this;
+            //     _this.$router.push({
+            //         path:'/www/companyPage',
+            //         query: {
+            //          "_id": dtim._id
+            //             }
+            //     })
 			//location.href="companyPage.html?id="+dtim._id;
 		}
   }

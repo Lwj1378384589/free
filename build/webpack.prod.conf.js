@@ -103,6 +103,68 @@ const webpackConfig = merge(baseWebpackConfig, {
       chunksSortMode: 'dependency',
       chunks: ['manifest', 'vendor', 'jobfair']
   }),
+  new HtmlWebpackPlugin({
+    filename: config.build.careertalk,   
+    template: 'careertalk.html',
+    inject: true,
+    minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+    },
+    chunksSortMode: 'dependency',
+    chunks: ['manifest', 'vendor', 'careertalk']
+}),
+new HtmlWebpackPlugin({
+  filename: config.build.jobs,   
+  template: 'jobs.html',
+  inject: true,
+  minify: {
+      removeComments: true,
+      collapseWhitespace: true,
+      removeAttributeQuotes: true
+  },
+  chunksSortMode: 'dependency',
+  chunks: ['manifest', 'vendor', 'jobs']
+}),
+
+
+new HtmlWebpackPlugin({
+  filename: config.build.jobfairback,   
+  template: 'jobfairback.html',
+  inject: true,
+  minify: {
+      removeComments: true,
+      collapseWhitespace: true,
+      removeAttributeQuotes: true
+  },
+  chunksSortMode: 'dependency',
+  chunks: ['manifest', 'vendor', 'jobfairback']
+}),
+new HtmlWebpackPlugin({
+  filename: config.build.careertalkback,   
+  template: 'careertalkback.html',
+  inject: true,
+  minify: {
+      removeComments: true,
+      collapseWhitespace: true,
+      removeAttributeQuotes: true
+},
+chunksSortMode: 'dependency',
+chunks: ['manifest', 'vendor', 'careertalkback']
+}),
+new HtmlWebpackPlugin({
+filename: config.build.jobsback,   
+template: 'jobs.htmlback',
+inject: true,
+minify: {
+  removeComments: true,
+  collapseWhitespace: true,
+  removeAttributeQuotes: true
+},
+chunksSortMode: 'dependency',
+chunks: ['manifest', 'vendor', 'jobsback']
+}),
     // keep module.id stable when vendor modules does not change
     new webpack.HashedModuleIdsPlugin(),
     // enable scope hoisting

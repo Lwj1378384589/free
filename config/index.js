@@ -58,7 +58,11 @@ module.exports = {
     index: path.resolve(__dirname, '../dist/index.html'),
     backPage: path.resolve(__dirname, '../dist/backPage.html'),
     jobfair: path.resolve(__dirname, '../dist/jobfair.html'),
-    
+    careertalk: path.resolve(__dirname, '../dist/careertalk.html'),
+    jobs: path.resolve(__dirname, '../dist/jobs.html'),
+    jobfairback: path.resolve(__dirname, '../dist/jobfairback.html'),
+    careertalkback: path.resolve(__dirname, '../dist/careertalkback.html'),
+    jobsback: path.resolve(__dirname, '../dist/jobsback.html'),
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),

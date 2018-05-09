@@ -4,13 +4,13 @@
 
 <script>
 export default {
-  name: 'backPage',
+  name: 'jobfairback',
 }
 
 </script>
 
 <style>
-#app {
+#Jobfair {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

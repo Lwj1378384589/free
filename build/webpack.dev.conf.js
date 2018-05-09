@@ -66,6 +66,41 @@ const devWebpackConfig = merge(baseWebpackConfig, {
       chunks: ['jobfair']
 
   }),
+  new HtmlWebpackPlugin({
+    filename: 'careertalk.html',
+    template: 'src/views/careertalk/careertalk.html',
+    inject: true,
+    chunks: ['careertalk']
+
+}),
+new HtmlWebpackPlugin({
+  filename: 'jobs.html',
+  template: 'src/views/jobs/jobs.html',
+  inject: true,
+  chunks: ['jobs']
+
+}),
+new HtmlWebpackPlugin({
+  filename: 'jobfairback.html',
+  template: 'src/views/jobfair/jobfairback.html',
+  inject: true,
+  chunks: ['jobfairback']
+
+}),
+new HtmlWebpackPlugin({
+filename: 'careertalkback.html',
+template: 'src/views/careertalk/careertalkback.html',
+inject: true,
+chunks: ['careertalkback']
+
+}),
+new HtmlWebpackPlugin({
+filename: 'jobsback.html',
+template: 'src/views/jobs/jobsback.html',
+inject: true,
+chunks: ['jobsback']
+
+}),
     // copy custom static assets
     new CopyWebpackPlugin([
       {

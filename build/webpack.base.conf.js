@@ -24,7 +24,12 @@ module.exports = {
   entry: {
     app: './src/main.js',
     jobfair: './src/views/jobfair/jobfair.js',
-    backPage: './src/pages/backPage/backPage.js'
+    careertalk: './src/views/careertalk/careertalk.js',
+    jobs: './src/views/jobs/jobs.js',
+    backPage: './src/pages/backPage/backPage.js',
+    careertalkback: './src/views/careertalk/careertalkback.js',
+    jobsback: './src/views/jobs/jobsback.js',
+    jobfairback: './src/views/jobfair/jobfairback.js'
   },
   output: {
     path: config.build.assetsRoot,
