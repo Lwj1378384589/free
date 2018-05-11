@@ -24,7 +24,7 @@
                         </div>
                     </form>
                     <div class="login-sign">
-                        <p>立即注册</p>
+                        <p><router-link to="/www/StuReg">立即注册</router-link></p>
                     </div>
                 </div>
                 
